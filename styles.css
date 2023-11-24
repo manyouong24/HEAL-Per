@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* 원하는 폰트 스타일로 수정하세요 */
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+#header {
+    background-color: #eee; /* 헤더 배경색 수정 가능 */
+    padding: 20px;
+    text-align: center;
+}
+
+#banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.food-item img {
+    margin-right: 10px;
+}
+
+.food-item-info {
+    flex: 1;
+}
+
+.food-item-info h2 {
+    color: #333;
+}
+
+.food-item-info .price {
+    color: #333;
+}
+
+.food-item-info .discounted-price {
+    color: red;
+}
+
+.buy-button-link {
+    text-decoration: none;
+}
+
+.buy-button {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
